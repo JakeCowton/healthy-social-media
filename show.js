@@ -14,3 +14,7 @@ var selectedElements = document.getElementsByClassName('UFIShareRow'), i;
 for (var i = 0; i < selectedElements.length; i ++) {
         selectedElements[i].style.display = 'block';
 }
+var selectedElements = document.getElementsByClassName('UFIReplySocialSentenceLinkText'), i;
+for (var i = 0; i < selectedElements.length; i ++) {
+        selectedElements[i].style.display = 'block';
+}
