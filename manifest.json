@@ -1,0 +1,23 @@
+{
+
+  "description": "Hides the number of 'likes', 'shares' and 'comments' from social media",
+  "manifest_version": 2,
+  "name": "Healthy Social Media",
+  "version": "1.0",
+  "homepage_url": "https://github.com/JakeCowton/healthy-social-media",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/off.svg",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+
+}
