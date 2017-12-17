@@ -24,10 +24,11 @@ function updateFilter() {
       show();
     }
   }
+  console.log("Filter updated")
 }
 
 function toggleCSS(tab) {
-
+  console.log("Toggling CSS");
   function gotTitle(title) {
     if (title === TITLE_APPLY) {
       browser.pageAction.setIcon({tabId: tab.id, path: "icons/on.svg"});
