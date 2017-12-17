@@ -1,20 +1,15 @@
-var selectedElements = document.getElementsByClassName('_ipm'), i;
+/*
+Show block elements
+*/
+var selectedElements = document.getElementsByClassName('UFILikeSentence UFIShareRow UFIReplySocialSentenceLinkText');
 for (var i = 0; i < selectedElements.length; i ++) {
         selectedElements[i].style.display = 'block';
 }
-var selectedElements = document.getElementsByClassName('_ipn'), i;
+
+/*
+Show inline elements
+*/
+var selectedElements = document.getElementsByClassName('_ipn');
 for (var i = 0; i < selectedElements.length; i ++) {
         selectedElements[i].style.display = 'inline';
-}
-var selectedElements = document.getElementsByClassName('UFILikeSentence'), i;
-for (var i = 0; i < selectedElements.length; i ++) {
-        selectedElements[i].style.display = 'block';
-}
-var selectedElements = document.getElementsByClassName('UFIShareRow'), i;
-for (var i = 0; i < selectedElements.length; i ++) {
-        selectedElements[i].style.display = 'block';
-}
-var selectedElements = document.getElementsByClassName('UFIReplySocialSentenceLinkText'), i;
-for (var i = 0; i < selectedElements.length; i ++) {
-        selectedElements[i].style.display = 'block';
 }
